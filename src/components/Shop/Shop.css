@@ -1,6 +1,6 @@
 .shop-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     background-color: whitesmoke;
 
 }
@@ -8,6 +8,22 @@
 .products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    grid-row: auto;
 
-    gap: 40px;
+
 }
+
+.cart-container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media screen and (max-width:1100px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 400px) {}

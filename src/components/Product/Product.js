@@ -1,5 +1,6 @@
 import React from 'react';
-import './Product.css'
+import './Product.css';
+
 
 const Product = ({ product, addToCart }) => {
 
@@ -15,7 +16,7 @@ const Product = ({ product, addToCart }) => {
                 <p><h6>ID: {id}</h6></p>
                 <h5>Color: {color}</h5>
             </div>
-            <button onClick={() => addToCart(product)} className='button'>Add To Cart</button>
+            <button onClick={() => addToCart(product)} className='button'>Add To Cart  /></button>
         </div>
     );
 };

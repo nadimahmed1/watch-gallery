@@ -14,10 +14,24 @@ const Shop = () => {
     }, [])
 
     const addToCart = (selectedProduct) => {
-        console.log(selectedProduct)
+        let newCart = []
+        const exist = cart.find((product) => product.id == selectedProduct.id);
+        if (!exist) {
+            selectedProduct.quantity = 1;
+            newCart = [...cart, selectedProduct];
+        }
+        else {
+            const rest = cart.filter((product) => product.id != selectedProduct.id);
+            selectedProduct.quantity = selectedProduct.quantity + 1;
+            newCart = [...rest, selectedProduct]
+        }
+
+        setCart(newCart)
 
     }
-
+    const removeHandle = () => {
+        setCart([])
+    }
     return (
         <div className='shop-container'>
             <div className='products-container'>
@@ -34,6 +48,8 @@ const Shop = () => {
             <div className='cart-container'>
                 <Cart
                     cart={cart}
+                    products={products}
+                    removeHandle={removeHandle}
                 ></Cart>
             </div>
         </div>

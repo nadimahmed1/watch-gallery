@@ -1,19 +1,24 @@
 .images img {
-    width: 300px;
-    height: 250px;
+    width: 240px;
+    padding: 10px;
+
 }
 
 .product {
-    width: 300px;
-    height: 510px;
+    width: 250px;
+    height: 410px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
+    box-shadow: 3px solid white;
+    margin-top: 50px;
+
 }
 
 .button {
     width: 100%;
-    background: #FFE0B3;
+    background: black;
+    color: antiquewhite;
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -25,5 +30,9 @@
 }
 
 .button:hover {
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.info {
+    padding-top: 10px;
 }
