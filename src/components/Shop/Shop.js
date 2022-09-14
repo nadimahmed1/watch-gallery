@@ -33,8 +33,8 @@ const Shop = () => {
         setCart([])
     }
     return (
-        <div className='shop-container'>
-            <div className='products-container'>
+        <div className='shop-container row col-sm-12'>
+            <div className='products-container '>
 
                 {
                     products.map(product => <Product

@@ -1,98 +1,98 @@
 [
     {
         "id": "101",
-        "name": "Nadim",
+        "name": "watch-black-box",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/watch-black-box-bow-tie-lie-white-windowsill_8353-687.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 1000,
         "quantity": 0
     },
     {
         "id": "102",
-        "name": "Nadim",
+        "name": "african-check-out",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/close-up-photo-african-man-black-t-shirt-check-out-time-black-wristwatch_171337-9266.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 6000,
         "quantity": 0
     },
     {
         "id": "103",
-        "name": "Nadim",
+        "name": "shop-assistant-black",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/shop-assistant-black-gloves-is-showing-expensive-watch-customer_613910-20740.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 4000,
         "quantity": 0
     },
     {
         "id": "104",
-        "name": "Nadim",
+        "name": "beautiful-young-man",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/beautiful-young-man-full-suit-while-driving-car_146671-18666.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 2700,
         "quantity": 0
     },
     {
         "id": "105",
-        "name": "Nadim",
+        "name": "made-with-plastic",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/2023-made-with-plastic-numbers-alarm-clock-blue-wooden_181624-46295.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 3000,
         "quantity": 0
     },
     {
         "id": "106",
-        "name": "Nadim",
+        "name": "close-up-female-hands",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/close-up-female-hands-using-wrist-smart-watch_171337-11790.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 7000,
         "quantity": 0
     },
     {
         "id": "107",
-        "name": "Nadim",
+        "name": "heigh-angle-hand",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/high-angle-hand-wearing-watch_23-2149436735.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 2400,
         "quantity": 0
     },
     {
         "id": "108",
-        "name": "Nadim",
+        "name": "fashion-portrait-young",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/fashion-portrait-young-businessman-handsome-model-man-casual-cloth-suit-with-accessories-hands_158538-9456.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 1500,
         "quantity": 0
     },
     {
         "id": "109",
-        "name": "Nadim",
+        "name": "futuristic-hologram-smartWatch",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/futuristic-hologram-smartwatch-wearable-technology_53876-108508.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 2500,
         "quantity": 0
     },
     {
         "id": "110",
-        "name": "Nadim",
+        "name": "human-hand-working",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/human-hand-working-with-laptop-networking-technology_53876-42684.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 8000,
         "quantity": 0
     },
     {
         "id": "111",
-        "name": "Nadim",
+        "name": "classic-alarm-clock",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/classic-alarm-clock_74190-5708.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 2040,
         "quantity": 0
     },
     {
         "id": "112",
-        "name": "Nadim",
+        "name": "portrait-smiling-woman",
         "color": "black",
         "img": "https://img.freepik.com/free-photo/portrait-smiling-woman-pointing-finger-smart-watch_171337-11786.jpg?size=626&ext=jpg&uid=R79039710&ga=GA1.2.36493514.1663059108",
-        "price": 2000,
+        "price": 4100,
         "quantity": 0
     }
 ]

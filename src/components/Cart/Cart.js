@@ -23,10 +23,12 @@ const Cart = (props) => {
         else {
             setOffer(false)
         }
-    }, [cart])
+    }, [cart]);
+
+
     return (
         <div className='cart'>
-            <h2>Order Summary </h2>
+            <h2 className='order'>Order Summary </h2>
             {
                 cart.map((product, index) => (
                     < div key={index} className='cart-item' >
@@ -35,13 +37,13 @@ const Cart = (props) => {
                             <p>
                                 {product.name} {product.color}
                             </p>
-                            <p>${product.price}</p>
+                            <p>${product.price * product.quantity}</p>
                             <p>{product.quantity}</p>
                         </div>
                     </div>
                 ))
             }
-            <p>Buy one get one free</p>
+            <p className='buy'>Buy one get one free</p>
             <button onClick={handleOffer} className={offer ? 'offer-button' : 'offer-button-disabled'} disabled={!offer}>Get One for me</button>
             <button onClick={removeHandle} className='offer-button'>Choose Again</button>
             {Object.keys(freeProduct).length > 0 && < div className='cart-item' >

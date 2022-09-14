@@ -37,4 +37,19 @@
 
 .cart {
     position: sticky;
+    width: 250px;
+
+}
+
+.buy {
+    color: purple;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.order {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslateblue;
 }

@@ -1,1 +1,11 @@
-.topTitle {}
+.topTitle .top {
+    color: purple;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topTitle .botom {
+    color: deeppink;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
